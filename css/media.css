@@ -1,0 +1,170 @@
+/* extra small screen */
+@media (max-width: 575.98px){
+	#topbar .contact-info i a, #topbar .contact-info i span {
+        font-size: 12px;
+    }
+    .navbar{
+        padding: 5px 5px;
+    }
+    .c_menu ul li a{
+        font-size: 15px;
+        padding: 5px 0px;
+    }
+    .nav-item{
+        padding-right: 0px;
+    }
+    #hero{
+        height: 50vh;
+    }
+    #hero h1 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    #hero h2 {
+        font-size: 16px;
+    }
+    #hero .btn-get-started{
+        font-size: 12px;
+    }
+    #hero .btn-watch-video{
+        font-size: 12px;
+    }
+    .featured-services{
+        padding: 10px 0px;
+    }
+    section {
+        padding: 20px 0px;
+    }
+    .counts {
+        padding: 10px 0 30px;
+    }
+}
+/* small screen */
+@media (min-width: 576px) and (max-width: 767.98px){
+    #hero{
+        height: 50vh;
+    }
+    #hero h1 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    #hero h2 {
+        font-size: 16px;
+    }
+    .navbar{
+        padding: 10px 10px;
+    }
+    #hero .btn-get-started{
+        font-size: 13px;
+    }
+    #hero .btn-watch-video{
+        font-size: 13px;
+    }
+    .featured-services{
+        padding: 15px 0px;
+    }
+    .counts {
+        padding: 5px 0 30px;
+    }
+    #footer .copyright, #footer .credits {
+        float: none;
+        text-align: center;
+        padding: 2px 0;
+      }
+    
+    
+}
+/* medium screen */
+@media (min-width: 768px) and (max-width: 991.98px){
+    #hero{
+        height: 55vh;
+    }
+    #hero h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    #hero h2 {
+        font-size: 17px;
+    }
+    .navbar{
+        padding: 10px 10px;
+    }
+    #hero .btn-get-started{
+        font-size: 14px;
+    }
+    #hero .btn-watch-video{
+        font-size: 14px;
+    }
+}
+
+/* large screen */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #hero{
+        height: 60vh;
+    }
+    #hero h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    #hero h2 {
+        font-size: 17px;
+    }
+    .navbar{
+        padding: 10px 10px;
+    }
+    #hero .btn-get-started{
+        font-size: 14px;
+    }
+    #hero .btn-watch-video{
+        font-size: 14px;
+    }
+    .about .content h3 {
+        font-size: 24px;
+    }
+    .fst-italic {
+        font-size: 14px;
+    }
+    .about .content ul i {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .about .content ul h5 {
+        font-size: 16px;
+    }
+    .about .content p:last-child {
+        font-size: 12px;
+    }
+}
+/* extra large screen */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	.navbar .dropdown .dropdown ul {
+        left: -90%;
+      }
+      .navbar .dropdown .dropdown:hover > ul {
+        left: -100%;
+      }
+    
+    /**
+    * Mobile Navigation 
+    */
+    .mobile-nav-toggle {
+      color: #222222;
+      font-size: 28px;
+      cursor: pointer;
+      display: none;
+      line-height: 0;
+      transition: 0.5s;
+    }
+    
+    .mobile-nav-toggle.bi-x {
+      color: #fff;
+    }
+    #hero {
+        background-attachment: fixed;
+    }
+
+}
+/* extra extra large screen */
+@media (min-width: 1400px){
+    
+}
